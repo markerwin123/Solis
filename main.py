@@ -1,4 +1,10 @@
 def greet(name):
     print(f"Hello, {name}!")
     
-    greet("World")
+greet("World")
+
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)
